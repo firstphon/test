@@ -12,12 +12,12 @@
 */
 
 Route::get('/', function () {
-    $title="หน้าหลัก!";
+    $title="หน้าหลัก! ";
     $content="home";
     return view('welcome')->with(['title' => $title,'content' => $content]);
 })->name('home');
 
-Route::get('/contact', function () {
+Route::get('/contact', function  () {
     $title="ติดต่อเรา";
     $content="contact";
    // return "ติดต่อได้ที่เบอร์ 095-654-6548";
