@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// mysite clone
 Route::get('/', function () {
     $title="หน้าหลัก! ";
     $content="home";
